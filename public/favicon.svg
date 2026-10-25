@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="AkoestiekLab">
+  <rect width="32" height="32" rx="6" fill="#0B2E5B"/>
+  <path
+    d="M4.5 16.5H8.2L11 7.5L15.2 25L19.2 10.5L22.4 19.5L25 16.5H27.5"
+    fill="none"
+    stroke="#15C8DC"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
