@@ -446,8 +446,7 @@ export const terms: Term[] = [
   {
     "slug": "contactgeluid",
     "title": "Contactgeluid: wat is het en hoe wordt het gemeten?",
-    "category": "isolatie",
-    "summary": 
+    "category": "isolatie", 
 "summary": `Contactgeluid ontstaat wanneer een vloer, wand of andere bouwconstructie rechtstreeks in trilling wordt gebracht. Denk aan voetstappen op een houten vloer, schuivende stoelen, vallende voorwerpen of een trillende wasmachine. De trillingen verspreiden zich door de gebouwconstructie en kunnen in andere ruimtes als geluid hoorbaar worden.
 
 Contactgeluid is een belangrijke oorzaak van geluidsoverlast in woningen, appartementen, kantoren en andere gebouwen. Met een contactgeluidmeting kan worden onderzocht hoe goed een vloer of andere scheidingsconstructie de overdracht van contactgeluid beperkt.
@@ -568,7 +567,6 @@ Bij een gewone geluidniveaumeting wordt vastgesteld hoeveel geluid op een bepaal
 Wanneer onduidelijk is hoe geluid tussen twee ruimtes wordt overgedragen, kan een bouwakoestisch onderzoek inzicht geven in de oorzaak en de prestaties van de constructie.
 
 Voor professionele metingen van luchtgeluid, contactgeluid en bouwakoestiek kun je terecht bij [Geluidzaken](https://geluidzaken.nl/).`,
-,
     "keywords": [],
     "practice": "Voetstappen en schuivende stoelen brengen de constructie zelf in trilling. Een zwevende vloer of een ontkoppelde opbouw pakt dat anders aan dan een absorptiepaneel aan het plafond.",
     "related": [
