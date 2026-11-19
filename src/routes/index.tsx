@@ -19,11 +19,11 @@ const featuredSlugs = [
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AkoestiekLab | Kennis over geluid, nagalm en akoestiek" },
+      { title: "Akoestiek uitgelegd: nagalm, decibel & rekenhulpen | AkoestiekLab" },
       {
         name: "description",
         content:
-          "Begrijp nagalm, decibel, spraakprivacy en geluidsisolatie. AkoestiekLab is het kennisplatform van Akoestiek360, gekoppeld aan Akoestiekscan en Geluidzaken.",
+          "Leer alles over akoestiek, nagalm, decibel en geluidsisolatie. Ontdek 128 akoestische begrippen en gratis rekenhulpen bij AkoestiekLab.",
       },
     ],
     links: [{ rel: "canonical", href: canonical("/") }],
@@ -46,11 +46,10 @@ function Home() {
               Kennisplatform van Akoestiek360
             </p>
             <h1 className="mt-3 font-display text-4xl font-semibold text-balance md:text-6xl">
-              Geluid wordt pas helder als je de begrippen kent.
+              Akoestiek begrijpen, berekenen en verbeteren.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-pretty text-mist">
-              AkoestiekLab legt nagalm, isolatie, spraakprivacy en metingen uit. Zodat een rapport, een norm
-              of een klacht te volgen is — voordat je een paneel koopt of een wand verzwaart.
+              Last van galm, slechte spraakverstaanbaarheid of geluidsoverlast? Bij AkoestiekLab leer je hoe geluid werkt. Ontdek alles over nagalmtijd, geluidsabsorptie, geluidsisolatie, decibel en akoestische metingen. Gebruik onze gratis rekenhulpen en praktische kennisartikelen om akoestische problemen beter te begrijpen..
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
