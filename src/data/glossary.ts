@@ -1,3 +1,5 @@
+import { contactgeluidHtml } from "@/data/contactgeluid";
+
 /* Generated glossary for AkoestiekLab. Definitions follow the begrippen of Akoestiek360, cleaned and completed. */
 
 export const categories = {
@@ -444,141 +446,19 @@ export const terms: Term[] = [
     }
   },
   {
+      {
     "slug": "contactgeluid",
-    "title": "Contactgeluid: wat is het en hoe wordt het gemeten?",
-    "category": "isolatie", 
-"summary": `Contactgeluid ontstaat wanneer een vloer, wand of andere bouwconstructie rechtstreeks in trilling wordt gebracht. Denk aan voetstappen op een houten vloer, schuivende stoelen, vallende voorwerpen of een trillende wasmachine. De trillingen verspreiden zich door de gebouwconstructie en kunnen in andere ruimtes als geluid hoorbaar worden.
-
-Contactgeluid is een belangrijke oorzaak van geluidsoverlast in woningen, appartementen, kantoren en andere gebouwen. Met een contactgeluidmeting kan worden onderzocht hoe goed een vloer of andere scheidingsconstructie de overdracht van contactgeluid beperkt.
-
-## Hoe ontstaat contactgeluid?
-
-Wanneer iemand over een vloer loopt, wordt de vloer mechanisch belast en in trilling gebracht. Die trillingen kunnen zich via de draagvloer, aansluitende wanden en andere constructiedelen verspreiden.
-
-In aangrenzende ruimtes brengen deze trillingen constructieoppervlakken in beweging, waardoor opnieuw geluid in de lucht ontstaat.
-
-Veelvoorkomende voorbeelden van contactgeluid zijn:
-
-- Voetstappen, hakken en rennende kinderen op een verdiepingsvloer.
-- Schuivende stoelen en vallende voorwerpen.
-- Trillingen van wasmachines of andere apparatuur die direct op een constructie staan.
-- Stoten en kloppen tegen wanden of vloeren.
-
-De mate waarin contactgeluid wordt overgedragen, hangt onder meer af van de vloerconstructie, de verbindingen tussen bouwdelen, de massa en stijfheid van de constructie en de aanwezige akoestische ontkoppeling.
-
-## Wat is het verschil tussen contactgeluid en luchtgeluid?
-
-Bij **luchtgeluid** wordt geluid eerst in de lucht opgewekt, bijvoorbeeld door stemmen, muziek of televisie. Dat geluid kan vervolgens door wanden en vloeren naar een andere ruimte worden overgedragen.
-
-Bij **contactgeluid** wordt de gebouwconstructie juist rechtstreeks in trilling gebracht.
-
-Dit onderscheid is belangrijk omdat de oplossingen verschillen.
-
-Een akoestisch absorptiepaneel kan de nagalm in een ruimte verminderen, maar verbetert doorgaans niet de contactgeluidisolatie tussen twee woningen.
-
-Een goed ontworpen zwevende vloer of een akoestisch ontkoppelde constructie kan de overdracht van contactgeluid wél beperken.
-
-Meer informatie: [Wat is luchtgeluid?](https://akoestieklab.nl/begrippen/luchtgeluid)
-
-## Hoe wordt contactgeluid gemeten?
-
-Een professionele contactgeluidmeting wordt uitgevoerd met een gestandaardiseerde contactgeluidbron, meestal een zogenoemde **hamermachine**.
-
-Deze machine bevat hamers die volgens een vast patroon op de vloer tikken. Hierdoor wordt de vloer op een reproduceerbare manier belast.
-
-In de ruimte onder of naast de betreffende vloer wordt vervolgens met meetapparatuur het overgedragen geluid gemeten.
-
-Een contactgeluidmeting verloopt in grote lijnen als volgt:
-
-1. **Een gestandaardiseerde geluidbron plaatsen.** Een hamermachine wordt op voorgeschreven meetposities op de vloer geplaatst.
-2. **Het geluidniveau meten.** In de ontvangstruimte wordt het door de constructie overgedragen geluid gemeten.
-3. **De ruimteakoestiek bepalen.** Onder meer de nagalmtijd van de ontvangstruimte wordt bepaald om de meetresultaten volgens de gekozen methode te corrigeren.
-4. **De resultaten beoordelen.** De meetgegevens worden verwerkt tot een gestandaardiseerde grootheid waarmee de contactgeluidisolatie kan worden beoordeeld.
-
-Met deze meetmethode kunnen onder meer vloeren, vloerafwerkingen en woningscheidende constructies worden onderzocht.
-
-### Welke normen worden gebruikt?
-
-Voor contactgeluidmetingen in gebouwen zijn onder meer de volgende normen relevant:
-
-- **NEN-EN-ISO 16283-2:** beschrijft de praktijkmeting van contactgeluidisolatie in gebouwen.
-- **NEN 5077:** beschrijft bepalingsmethoden voor onder meer de geluidisolatie tussen ruimten en wordt in Nederland gebruikt voor toetsing aan toepasselijke bouwregelgeving.
-
-Welke eisen gelden, hangt af van de gebouwfunctie, de bouwsituatie en de toepasselijke regelgeving.
-
-## Wat betekenen de resultaten van een contactgeluidmeting?
-
-Bij een contactgeluidmeting wordt niet uitsluitend gekeken naar hoe hard voetstappen of andere geluiden subjectief klinken.
-
-De meting levert gegevens op waarmee de overdracht van contactgeluid volgens een gestandaardiseerde methode kan worden beoordeeld.
-
-Een in Nederland gebruikte beoordelingsgrootheid is het **gewogen contactgeluidniveau L'nT,A**, uitgedrukt in decibel (dB).
-
-Bij deze grootheid geldt: hoe lager de waarde, hoe beter de bescherming tegen contactgeluid.
-
-De gemeten waarde moet altijd worden geïnterpreteerd aan de hand van de gebruikte norm, de betrokken ruimtes en de toepasselijke eisen.
-
-Ook overdracht via aansluitende wanden of andere constructiedelen kan invloed hebben op het meetresultaat.
-
-## Hoe kun je contactgeluid verminderen?
-
-Contactgeluid wordt vooral beperkt door te voorkomen dat trillingen zich gemakkelijk door de gebouwconstructie verspreiden.
-
-Mogelijke maatregelen zijn:
-
-**1. Een zwevende vloer toepassen**
-
-Bij een zwevende vloer wordt de vloerafwerking of dekvloer met een verende tussenlaag akoestisch ontkoppeld van de draagconstructie. De werking hangt sterk af van de uitvoering en het voorkomen van starre verbindingen.
-
-**2. Contactpunten ontkoppelen**
-
-Elastische opleggingen of trillingsisolerende voorzieningen kunnen de overdracht van trillingen via meubels, machines en andere contactpunten beperken.
-
-**3. Flankerende geluidsoverdracht beperken**
-
-Geluid kan niet alleen rechtstreeks door een vloer worden overgedragen, maar ook via aansluitende wanden en andere bouwdelen. Daarom moeten de constructieaansluitingen bij een akoestisch ontwerp worden meegenomen.
-
-**4. Een geschikte vloerafwerking kiezen**
-
-Tapijt, een passende ondervloer of een akoestisch ontworpen vloeropbouw kan in bepaalde situaties helpen. De werkelijke verbetering is afhankelijk van de complete vloerconstructie en mag niet uitsluitend op basis van een productclaim worden aangenomen.
-
-Lees ook: [Zwevende vloer](https://akoestieklab.nl/begrippen/zwevende-vloer) en [Trillingsoverdracht](https://akoestieklab.nl/begrippen/trillingsoverdracht).
-
-## Veelgestelde vragen over contactgeluid
-
-### Kun je contactgeluid meten met een smartphone?
-
-Met een smartphone kun je een globale indruk krijgen van geluidniveaus. Voor een betrouwbare beoordeling van de contactgeluidisolatie volgens een norm is een smartphone echter niet voldoende. Daarvoor zijn een gestandaardiseerde geluidbron, geschikte meetapparatuur en een voorgeschreven meetmethode nodig.
-
-### Helpen akoestische panelen tegen contactgeluid?
-
-Gewone akoestische wand- of plafondpanelen zijn vooral bedoeld om geluidreflecties en nagalm binnen een ruimte te beperken. Ze lossen de overdracht van trillingen via vloeren en gebouwconstructies doorgaans niet op.
-
-### Kan contactgeluid ook via muren worden overgedragen?
-
-Ja. Trillingen kunnen zich via aansluitende bouwdelen verspreiden. Dit heet flankerende geluidsoverdracht. Daardoor kan geluid in een andere ruimte hoorbaar worden, ook wanneer de directe vloerconstructie relatief goed is geïsoleerd.
-
-### Wat is het verschil tussen contactgeluid meten en contactgeluidisolatie meten?
-
-Bij een gewone geluidniveaumeting wordt vastgesteld hoeveel geluid op een bepaalde plaats aanwezig is. Bij een contactgeluidisolatiemeting wordt met een gestandaardiseerde contactgeluidbron onderzocht hoe goed een constructie de overdracht naar een andere ruimte beperkt.
-
-## Contactgeluid professioneel laten meten
-
-Wanneer onduidelijk is hoe geluid tussen twee ruimtes wordt overgedragen, kan een bouwakoestisch onderzoek inzicht geven in de oorzaak en de prestaties van de constructie.
-
-Voor professionele metingen van luchtgeluid, contactgeluid en bouwakoestiek kun je terecht bij [Geluidzaken](https://geluidzaken.nl/).`,
+    "title": "Contactgeluid",
+    "category": "isolatie",
+    "summary": "Contactgeluid ontstaat wanneer een vloer of wand rechtstreeks in trilling wordt gebracht, bijvoorbeeld door voetstappen of schuivende stoelen. Die trilling wordt in een andere ruimte weer als geluid hoorbaar.",
+    "html": "<p>Contactgeluid ontstaat wanneer een vloer, wand of andere bouwconstructie rechtstreeks in trilling wordt gebracht. Denk aan voetstappen, schuivende stoelen, een vallend voorwerp of een wasmachine die op de vloer staat. Die trilling loopt door het gebouw en wordt in een andere ruimte weer als geluid hoorbaar.</p><p>Het is een veelvoorkomende oorzaak van hinder in woningen, appartementen en kantoren. Met een meting is te zien hoe goed een vloer die overdracht beperkt.</p><h2>Hoe contactgeluid ontstaat</h2><p>Wie over een vloer loopt, belast die vloer. De trilling gaat via de draagvloer en de aansluitende wanden verder. In de ruimte ernaast of eronder bewegen die vlakken mee, en daar ontstaat opnieuw geluid in de lucht.</p><ul><li>Voetstappen, hakken en rennende kinderen op een verdiepingsvloer.</li><li>Schuivende stoelen en vallende voorwerpen.</li><li>Een wasmachine of ander apparaat dat direct op de constructie staat.</li><li>Stoten of kloppen tegen een wand of vloer.</li></ul><p>Hoeveel er doorkomt, hangt af van de vloeropbouw, de aansluitingen, de massa en de stijfheid, en of de constructie akoestisch is ontkoppeld.</p><h2>Het verschil met luchtgeluid</h2><p>Bij <a href=\"/begrippen/luchtgeluid\">luchtgeluid</a> begint het geluid in de lucht: stemmen, muziek, een televisie. Bij contactgeluid wordt de constructie zelf aangestoten.</p><p>Een absorptiepaneel helpt tegen nagalm in de kamer, niet tegen voetstappen van de buren. Een zwevende vloer of een ontkoppelde opbouw pakt die overdracht wél aan.</p><h2>Hoe contactgeluid wordt gemeten</h2><p>Een meting gebruikt een hamermachine. De hamers tikken in een vast patroon op de vloer. In de ruimte onder of naast die vloer meet apparatuur hoeveel geluid aankomt.</p><ol><li>De hamermachine staat op de voorgeschreven plekken op de vloer.</li><li>In de ontvangstruimte wordt het overgedragen geluid gemeten.</li><li>De nagalm van die ruimte wordt bepaald, zodat het resultaat daarvoor gecorrigeerd kan worden.</li><li>De gegevens worden een maat waarmee de isolatie te beoordelen is.</li></ol><h3>Welke normen</h3><ul><li><strong>NEN-EN-ISO 16283-2</strong> beschrijft de praktijkmeting van contactgeluidisolatie.</li><li><strong>NEN 5077</strong> beschrijft hoe in Nederland de geluidisolatie tussen ruimten wordt bepaald.</li></ul><p>Welke eis geldt, hangt af van de gebouwfunctie en de bouwsituatie.</p><h2>Wat de uitkomst betekent</h2><p>De maat is vaak het gewogen contactgeluidniveau L′nT,A, in decibel. Lager is beter. Lees het getal naast de norm, de ruimtes en de eis die daarbij hoort.</p><h2>Hoe je contactgeluid beperkt</h2><h3>Zwevende vloer</h3><p>De afwerking ligt op een verende laag, los van de draagvloer. Een plint die beide lagen raakt, maakt die laag grotendeels ongedaan. Meer bij <a href=\"/begrippen/zwevende-vloer\">zwevende vloer</a>.</p><h3>Contactpunten ontkoppelen</h3><p>Elastische oplegging onder een machine of meubel beperkt de trilling. Zie <a href=\"/begrippen/trillingsoverdracht\">trillingsoverdracht</a>.</p><h3>Flankerende overdracht</h3><p>Geluid gaat ook via de wanden ernaast. Uitleg bij <a href=\"/begrippen/flankerend-geluid\">flankerend geluid</a>.</p><h3>Vloerafwerking</h3><p>Tapijt of een ondervloer kan helpen. De verbetering zit in de hele vloeropbouw, niet in één getal op een verpakking.</p><h2>Veelgestelde vragen</h2><details><summary>Kun je contactgeluid meten met een smartphone?</summary><p>Een telefoon geeft een indruk. Voor een beoordeling volgens een norm zijn een hamermachine, geschikte apparatuur en de voorgeschreven methode nodig.</p></details><details><summary>Helpen akoestische panelen tegen contactgeluid?</summary><p>Panelen dempen nagalm in de kamer. De trilling door de vloer lossen ze niet op.</p></details><details><summary>Kan contactgeluid ook via muren komen?</summary><p>Ja. Trillingen lopen via aansluitende bouwdelen. Dat heet flankerende overdracht.</p></details><details><summary>Wat is het verschil tussen een geluidniveau en de isolatie?</summary><p>Een niveaumeting zegt hoeveel geluid er op een plek is. Een isolatiemeting laat zien hoe goed de constructie de overdracht beperkt.</p></details><p>Contactgeluid laat je meten door <a href=\"https://geluidzaken.nl/contactgeluid/\">Geluidzaken</a>.</p>",
     "keywords": [],
     "practice": "Voetstappen en schuivende stoelen brengen de constructie zelf in trilling. Een zwevende vloer of een ontkoppelde opbouw pakt dat anders aan dan een absorptiepaneel aan het plafond.",
-    "related": [
-      "zwevende-vloer",
-      "trillingsoverdracht",
-      "luchtgeluid",
-      "massa-veer-massa-principe"
-    ],
+    "related": ["zwevende-vloer", "trillingsoverdracht", "luchtgeluid", "flankerend-geluid"],
     "see": {
       "label": "Geluidzaken",
-      "href": "https://geluidzaken.nl/",
-      "note": "Luchtgeluid, contactgeluid en bouwakoestiek laten meten"
+      "href": "https://geluidzaken.nl/contactgeluid/",
+      "note": "Contactgeluid laten meten"
     }
   },
   {
@@ -2511,8 +2391,12 @@ Voor professionele metingen van luchtgeluid, contactgeluid en bouwakoestiek kun 
 
 const bySlug = new Map(terms.map((term) => [term.slug, term]));
 
-export function getTerm(slug: string): Term | undefined {
-  return bySlug.get(slug);
+export function getTerm(slug: string) {
+  const term = terms.find((item) => item.slug === slug);
+  if (!term) return undefined;
+  if (term.slug === "contactgeluid") return { ...term, html: contactgeluidHtml };
+  return term;
+
 }
 
 export function normalizeQuery(value: string): string {
