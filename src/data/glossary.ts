@@ -446,7 +446,6 @@ export const terms: Term[] = [
     }
   },
   {
-      {
     "slug": "contactgeluid",
     "title": "Contactgeluid",
     "category": "isolatie",
