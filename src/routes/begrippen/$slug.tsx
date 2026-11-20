@@ -62,7 +62,11 @@ function TermPage() {
         {categories[term.category]}
       </p>
       <h1 className="mt-2 font-display text-4xl font-semibold text-balance md:text-5xl">{term.title}</h1>
-      <p className="mt-5 text-lg text-pretty leading-relaxed">{term.summary}</p>
+      {term.html ? (
+  <div className="mt-5 text-pretty leading-relaxed [&_h2]:mt-8 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:mt-5 [&_h3]:font-display [&_h3]:text-xl [&_p]:mt-3 [&_ul]:mt-3 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:mt-3 [&_ol]:list-decimal [&_ol]:pl-5 [&_a]:font-semibold [&_a]:underline [&_summary]:cursor-pointer [&_summary]:py-3 [&_summary]:font-semibold" dangerouslySetInnerHTML={{ __html: term.html }} />
+) : (
+  <p className="mt-5 text-lg text-pretty leading-relaxed">{term.summary}</p>
+)}
       {term.practice ? (
         <p className="mt-4 text-pretty leading-relaxed text-muted">{term.practice}</p>
       ) : null}
